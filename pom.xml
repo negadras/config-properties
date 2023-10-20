@@ -5,6 +5,8 @@
   <artifactId>config-properties</artifactId>
   <packaging>jar</packaging>
 
+
+
   <version>1.0-SNAPSHOT</version>
   <name>config-properties</name>
   <url>http://maven.apache.org</url>
