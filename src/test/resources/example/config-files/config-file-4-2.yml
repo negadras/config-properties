@@ -1,0 +1,10 @@
+app:
+  override: failed
+
+config-files:
+  config-file:
+    four:
+      property:
+        one: value.2
+        two: value.2
+        three: value.2

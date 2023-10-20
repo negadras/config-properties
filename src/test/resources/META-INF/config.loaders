@@ -1,0 +1,3 @@
+com.example.loader.DefaultConfigLoader=\
+    example/auto-loaded/config-file.properties,\
+    example/auto-loaded/config-file.yaml

@@ -1,0 +1,24 @@
+auto-loaded:
+  yaml-config-file:
+    yaml-config-file-property: default value
+
+---
+#spring:
+#  profiles: some-env
+spring:
+  config.activate.on-profile: some-env
+
+auto-loaded:
+  yaml-config-file:
+    yaml-config-file-property: value for some-env
+
+---
+spring:
+  profiles: some-other-env
+#spring:
+#  config.activate.on-profile: some-other-env
+
+auto-loaded:
+  yaml-config-file:
+    yaml-config-file-property: value for some-other-env
+    some-other-env-property: expected not to be loaded

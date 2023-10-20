@@ -1,0 +1,4 @@
+org.springframework.boot.env.EnvironmentPostProcessor=\
+    org.example.app.config.ConfigFilesDefaultConfig,\
+    org.example.app.config.InvalidYamlInPropertySourceDefaultConfig,\
+    org.example.app.config.PropertySourcesDefaultConfig
